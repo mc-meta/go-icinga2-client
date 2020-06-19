@@ -42,7 +42,7 @@ type WebClient struct {
 	Password          string
 	Debug             bool
 	InsecureTLS       bool
-	DisableKeepalives bool
+	DisableKeepAlives bool
 	Zone              string
 	RootCAs           *x509.CertPool
 }
